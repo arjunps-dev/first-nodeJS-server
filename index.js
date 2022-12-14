@@ -5,6 +5,7 @@
 //     res.end();
 //   })
 //   .listen("8080");
-const sayHello = require('./modules.js');
+const hello = require('./modules.js');
 
-sayHello();
+
+hello.message();
